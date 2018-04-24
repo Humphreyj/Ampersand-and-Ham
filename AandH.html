@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ampersand and Ham</title>
+	<meta name="viewport" content="width=device-width" />
+
+	
+  <link rel="stylesheet" type="text/css" href="AandH.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Teko" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id='sideBar' class='theSideBar'>
+		<a href='javascript:void(0)' class='closeButton' onclick='closeNav()'>"&"</a>
+		<a href='#'>About Us</a>
+		<a href='#'>Menu</a>
+		<a href='#'>Hours and location</a>
+		<a href='#'>Join our team</a>
+		<div>
+			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESUpWLDMzJ9kmuRtzsUbr8diQUYnoiaxFD1r1xCIvvq_09vJVJQ'/>
+		</div>
+
+	</div><!--sideBar-->
+
+
+	<div id='main'>
+		<div id='header'>
+			<h1>Ampersand and Ham</h1>
+			<div id='nav' class='navigation'>
+				<a href='#'>About Us</a>
+				<a href='#'>Menu</a>
+				<a href='#'>Hours and location</a>
+				<a href='#'>Join our team</a>
+			</div><!--nav-->
+			<h1 id='amp' class='clicker' onclick='openNav()'>"&"</h1>
+		</div><!--header-->
+
+		<div id='mainImages'>
+
+			
+
+			<div class='image hideOnMobile'>
+				<img src="https://images-gmi-pmc.edge-generalmills.com/fdd57000-e04c-4ee9-9f19-6a6fee92f6bc.jpg"/>
+			</div>
+
+			<div class='image'>
+				<img src="http://ariz.us/wp-content/uploads/2017/11/ham-and-camembert-baguette-sandwich-recipe-chowhound-easy-recipes-for-christmaschristmas-crock-pot-christmas-with-beer.jpg"/>
+			</div>
+		
+
+		<div class='image hideOnMobile'>
+				<img src="https://images.media-allrecipes.com/userphotos/960x960/4547305.jpg"/>
+			</div>
+
+
+		</div>
+
+		<div id='about' class='section'>
+			<h2 class='sectionHead' onclick='toggleAbout()'>About</h2>
+			<p  id='aboutContent' class='sectionContent'>Here at Am and H&m we strive to bring you a great dining experience while simultaneously	creating an environment our staff can hardly tolerate. Our complex menu will confuse and annoy while our condescending staff judges your food and drink choices. Our overly complicated dishes are made for sharing, but are all a bit too small to do so.</p>	
+
+			</div><!--about-->
+
+			<div id='menu' class='section'>
+			<h2 class='sectionHead' onclick='toggleMenu()'>Menu</h2>
+			<div id='menuContent' class='sectionContent'>
+				<div id='mainItemsDiv'>
+					
+					<h3>M&ins</h3>
+					<ul id='mainItems'>
+						<li class='menuItem'>Ste&med Whitefish/for&ged veget&ble</li>
+						<li class='menuItem'>The H&mpers&ndwich/ Our sign&ture dish</li>
+						<li class='menuItem'>&ugust Veg&t&ble R&agout</li>
+						<li class='menuItem'>Pickled R&dishes/ 6 of th&e, size L&rge</li>
+					</ul>
+				</div><!--mainItemsDiv-->	
+				<div id='deliItemsDiv'>
+					<h3>D&li</h3>
+					<ul id='deliItems'>
+						<li class='menuItem'>The &mpers&l&d/pl&in, no dressing</li>
+						<li class='menuItem'>Squeezed K&le</li>
+					</ul>	
+			</div><!--deliItemsDiv-->
+			<div id='dessertItemsDiv'>
+				<h3>&fter</h3>
+				<ul id='dessertItems'>
+					<li class='menuItem'>C&ke Brick/ Creme &ngl%ise</li>
+					<li class='menuItem'>H&m &nd J&m</li>
+				</ul>	
+			</div><!--dessertItemsDiv-->
+		</div>
+
+			</div><!--menu-->
+
+			<div id='hours' class='section'>
+			<h2 class='sectionHead' onclick='toggleHours()'>Hours</h2>
+				<div id='hoursDiv'>
+					<p  id='hoursContent' class='sectionContent'>
+						Our Hours change weekly and will be posted in the form of a riddle on our <a href="#">social media</a> accounts!
+
+					</p>
+		</div><!--hoursDiv-->
+			
+			</div><!--hours-->
+
+			<div id='join' class='section'>
+			<h2 class='sectionHead' onclick='toggleJoin()'>Join</h2>
+				<div id='joinDiv'>
+					<p  id='joinContent' class='sectionContent'>
+						If you'd like to join our team click <a href='#'>here</a> to take our personality test. If you score high enough on the &mper-scale you'll be contacted for an interview lunch. Will you be working or eating? You won't know until you get there!
+
+					</p>
+		</div><!--joinDiv-->
+			
+			</div><!--join-->
+
+			
+
+	
+	</div><!--main-->
+	<script type="text/javascript" src="AandH.js"></script>
+</body>
+</html>
